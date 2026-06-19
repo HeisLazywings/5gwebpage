@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+
+:root {
+  --primary: #D90429;
+  --dark: #111111;
+  --cream: #FFF8F0;
+}
+
+
+body {
+  background: #050505;
+}
+
+.section-dark {
+  background: linear-gradient(
+    to bottom,
+    #050505,
+    #111111
+  );
+}
+
+.red-glow {
+  box-shadow:
+    0 0 40px rgba(220,38,38,.35);
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+
+* {
+  scroll-behavior: smooth;
+}
